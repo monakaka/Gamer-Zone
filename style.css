@@ -386,7 +386,7 @@
 
 
 /* media query style  */
-@media screen and (max-width:776px) {
+@media screen and (max-width:768px) {
     .navbar {
         display: block;
         justify-content: space-between;
@@ -426,6 +426,7 @@
         white-space: nowrap;
     }
 
+    /* banner media style  */
     .banner-container {
         display: block;
         justify-content: space-between;
@@ -447,6 +448,7 @@
         margin-bottom: 100px;
     }
 
+    /* gamer section  */
     .gamer-container {
         display: block;
         justify-content: space-between;
@@ -462,6 +464,7 @@
         height: 100%;
     }
 
+    /* online game section  */
     .online-game-card-container {
         display: block;
         grid-template-columns: repeat(4, 1fr);
@@ -488,6 +491,7 @@
         margin-top: 50px;
     }
 
+    /* play instantly section  */
     .play-instantly-container {
         display: block;
         justify-content: center;
@@ -519,6 +523,7 @@
         margin-bottom: 200px;
     }
 
+    /* various game section style  */
     .various-game-section {
         margin: 0;
         width: 100%;
@@ -597,5 +602,103 @@
         margin-left: 0;
         margin-right: 0;
         margin-bottom: 0;
+    }
+}
+
+/* media query for tablet */
+
+@media screen and (min-width:768px) and (max-width:1279px) {
+    .navbar {
+        padding: 0;
+        margin: 30px;
+    }
+
+    .gamer-logo-name h1 {
+        font-size: 45px;
+        font-weight: 700;
+        margin-right: 20px;
+    }
+
+    .banner-container {
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        column-gap: 68px;
+        margin: 0;
+        padding: 5px;
+    }
+
+    .banner-info-container {
+        padding: 0;
+        text-align: center;
+    }
+
+    .banner-photo {
+        width: 100%;
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .banner-btn-box {
+        display: block;
+    }
+
+    .gamer-container {
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        column-gap: 55px;
+        margin: 0;
+        padding: 15px;
+        text-align: center;
+    }
+
+    .gamer-container img {
+        width: 100%;
+        height: 100%;
+    }
+
+    /* online game section  */
+    .online-game-card-container {
+        display: grid;
+        row-gap: 100px;
+        column-gap: 20px;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 0 150px 0;
+        padding: 10px;
+        text-align: center;
+    }
+
+    /* play instantly section style */
+    .play-instantly-container {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        row-gap: 100px;
+        margin: 0;
+        padding: 10px;
+    }
+
+    .instantly-main-img {
+        width: 70%;
+        margin-top: 50px;
+    }
+
+    .instantly-second-img {
+        height: 50%;
+    }
+
+    .play-instantly-info {
+        font-size: var(--primary-font-size);
+        color: var(--primary-font-color);
+        width: 100%;
+        text-align: center;
+    }
+
+    .img-container {
+        width: 100%;
+        margin-left: 25%;
+        margin-bottom: 200px;
     }
 }
