@@ -1,0 +1,539 @@
+* {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+:root {
+    --primary-font-size: 18px;
+    --secondary-font-size: 20px;
+    --third-font-size: 48px;
+    --primary-font-color: #534C64;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    padding: 37px 240px;
+}
+
+.gamer-logo-name {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.gamer-logo-name img {
+    height: 46px;
+}
+
+.gamer-logo-name h1 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.pink-transparent {
+    background-image: linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.menu-bar>div {
+    display: flex;
+    align-items: center;
+    column-gap: 32px;
+    font-size: var(--primary-font-size);
+    color: var(--primary-font-color);
+}
+
+.menu-bar a {
+    text-decoration: none;
+}
+
+.shadow-menu {
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 17px 24px;
+}
+
+#youtube {
+    color: red;
+    font-size: 33px;
+}
+
+#tiktok {
+    font-size: 24px;
+}
+
+/* banner section style  */
+.banner-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 68px;
+    margin: 25px 240px;
+}
+
+.banner-info-container {
+    padding: 150px 0px 200px 0;
+}
+
+.banner-info-container p {
+    color: #534C64;
+    font-size: var(--secondary-font-size);
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.header-title-part {
+    font-size: var(--third-font-size);
+}
+
+#goat-style {
+    font-size: 95px;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-btn-box {
+    display: flex;
+    column-gap: 24px;
+    margin-top: 30px;
+}
+
+.pink-btn {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 21px 40px;
+    border: none;
+    border-radius: 48px;
+    background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+    white-space: nowrap;
+}
+
+.go-gogue-btn {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 21px 40px;
+    border: none;
+    border-radius: 48px;
+    background-color: #4EC5F7;
+    white-space: nowrap;
+}
+
+.banner-photo {
+    width: 50%;
+}
+
+/* we are gamer style  */
+.gamer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 55px;
+    margin: 55px 240px;
+    text-align: right;
+
+}
+
+.gamer-container img {
+    width: 50%;
+}
+
+.gamer-container h1 {
+    font-size: var(--third-font-size);
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    white-space: nowrap;
+}
+
+.gamer-container p {
+    color: #534C64;
+    font-size: var(--primary-font-size);
+    line-height: 30px;
+}
+
+#purpose {
+    color: #534C64;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 45px;
+}
+
+#unleash-part {
+    color: #534C64;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.gamer-container button {
+    margin: 20px 0;
+}
+
+/* online game funny videos style  */
+.online-game-section {
+    margin-top: 200px;
+}
+
+.online-game-info {
+    text-align: center;
+}
+
+.online-game-info h1 {
+    color: #0B0223;
+    font-size: var(--third-font-size);
+    font-weight: 700;
+}
+
+.online-game-info p {
+    color: #534C64;
+    font-size: var(--primary-font-size);
+}
+
+.online-game-card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 24px;
+    margin: 48px 240px 130px 240px;
+}
+
+.online-game-card-container p {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+.online-game-card-container img {
+    width: 100%;
+    height: 100%;
+}
+
+.online-game-card-container>div {
+    position: relative;
+}
+
+.card:hover {
+    border-radius: 16px;
+    border: 4px solid var(--Linear, #FF42A5);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(<path-to-image>), rgb(54, 51, 51) 50% / cover no-repeat;
+    opacity: 0.5;
+}
+
+.play-icon {
+    position: absolute;
+    top: 45%;
+    right: 40%;
+    color: black;
+    background-color: #FFF;
+    padding: 16px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+
+.online-game-card-container>div:hover .play-icon {
+    opacity: 1;
+}
+
+/* play instantly section style  */
+.play-instantly-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 150px;
+    margin: 250px 240px 120px 240px;
+}
+
+.img-container {
+    position: relative;
+}
+
+.instantly-main-img {
+    width: 100%;
+}
+
+.instantly-second-img {
+    width: 50%;
+    position: absolute;
+    top: 65%;
+    right: 75%;
+}
+
+.play-instantly-info {
+    font-size: var(--primary-font-size);
+    color: var(--primary-font-color);
+    width: 60%;
+}
+
+.img-container {
+    width: 40%;
+}
+
+/* various game section style  */
+
+.various-game-section {
+    margin: 250px 240px 120px 240px;
+}
+
+
+.games-demo-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 120px;
+    gap: 30px;
+}
+
+.single-demo {
+    width: 243px;
+    border-radius: 50px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.single-demo:hover {
+    border-radius: 50px;
+    border: 1.5px solid var(--Linear, #FF42A5);
+    background: #FFF;
+    padding: 5px;
+    background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* footer section style  */
+
+.footer-section {
+    background-color: black;
+    padding: 150px 220px;
+}
+
+.footer-logo-name {
+    display: flex;
+    column-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    color: #FFF;
+}
+
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    column-gap: 60px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: var(--primary-font-size);
+    font-weight: 600;
+}
+
+.footer-icons {
+    margin-top: 56px;
+    display: flex;
+    justify-content: center;
+    column-gap: 40px;
+    color: #FFF;
+    font-size: 40px;
+}
+
+.policy {
+    display: flex;
+    justify-content: center;
+    column-gap: 60px;
+    margin-top: 50px;
+}
+
+.policy a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.60);
+    font-weight: 500;
+}
+
+#copyRight {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-weight: 500;
+    margin-top: 28px;
+}
+
+
+/* media query style  */
+@media screen and (max-width:767px) {
+    .navbar {
+        display: block;
+        justify-content: space-between;
+        background: #FFF;
+        box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    }
+
+    .menu-bar>div {
+        display: block;
+        align-items: center;
+        column-gap: 32px;
+        font-size: var(--primary-font-size);
+        color: var(--primary-font-color);
+    }
+
+    .menu-bar {
+        display: flex;
+    }
+
+    .menu-bar a {
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .shadow-menu {
+        display: flex;
+        align-items: center;
+        column-gap: 16px;
+        border-radius: 8px;
+        background: rgba(11, 2, 35, 0.10);
+        padding: 17px 24px;
+        margin-top: 10px;
+        white-space: nowrap;
+    }
+
+    .banner-container {
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        column-gap: 68px;
+        margin: 25px 240px;
+    }
+
+    .banner-info-container {
+        padding: 0;
+        text-align: center;
+    }
+
+    .banner-photo {
+        width: 100%;
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .gamer-container {
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        column-gap: 55px;
+        margin: 55px 240px;
+        text-align: right;
+
+    }
+
+    .gamer-container img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .online-game-card-container {
+        display: block;
+        grid-template-columns: repeat(4, 1fr);
+        margin: 48px 240px 130px 240px;
+        text-align: center;
+    }
+
+    .play-icon {
+        position: absolute;
+        top: 33%;
+        right: 40%;
+        color: black;
+        background-color: #FFF;
+        padding: 16px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+    }
+
+    .card {
+        margin-top: 50px;
+    }
+
+    .play-instantly-container {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        column-gap: 150px;
+        margin: 250px 240px 120px 240px;
+    }
+
+    .instantly-main-img {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .instantly-second-img {
+        height: 50%;
+    }
+
+    .play-instantly-info {
+        font-size: var(--primary-font-size);
+        color: var(--primary-font-color);
+        width: 100%;
+        text-align: start;
+    }
+
+    .img-container {
+        width: 100%;
+    }
+
+    .footer-links {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        align-items: center;
+        white-space: nowrap;
+        column-gap: 60px;
+        row-gap: 30px;
+    }
+
+    .footer-icons {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        align-items: center;
+        white-space: nowrap;
+        column-gap: 60px;
+        row-gap: 30px;
+    }
+
+    .policy {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        white-space: nowrap;
+        row-gap: 30px;
+    }
+
+    #copyRight {
+        width: 100%;
+    }
+}
